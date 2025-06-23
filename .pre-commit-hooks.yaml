@@ -1,5 +1,5 @@
 - id: conventional-commit-msg
   name: Check Conventional Commit Messages
   entry: python3 check_commit_message.py
-  language: python
+  language: python3
   stages: [commit-msg]

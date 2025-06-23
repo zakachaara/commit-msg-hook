@@ -9,8 +9,8 @@ def main():
 
     pattern = re.compile(r"^(feat|fix|docs|style|refactor|perf|test|chore)(\(\w+\))?: .+")
     if not pattern.match(message):
-        print("❌ Commit message does not follow Conventional Commits format.")
-        print("👉 Example: feat(auth): add OAuth login")
+        print("[ commit-msg format ] Commit message does not follow Conventional Commits format.")
+        print("[ commit-msg format ] Example: feat(auth): add OAuth login")
         return 1
     return 0
 

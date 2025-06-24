@@ -1,5 +1,7 @@
 # Conventional Commit Message Hook
 
+![how it seems to be?](commit-msg.png)
+
 This is a `pre-commit` hook that enforces [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) in your Git commit messages.
 
 ##  Why Use It?

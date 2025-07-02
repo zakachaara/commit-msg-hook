@@ -76,9 +76,6 @@ feat(api): change response format
 
 BREAKING CHANGE: /users endpoint now returns data in a new format
 ```
-<<<<<<< HEAD
 --- 
-Expected Log if the commit message does not match the expected format : 
+Expected Log if the `commit message` does not match the expected format : 
 ![error logs](logs_in_the_terminal.png)
-=======
->>>>>>> 482e891cf7e368aea4c54663019a012e292db755
